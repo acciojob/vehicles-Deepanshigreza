@@ -27,7 +27,7 @@ boolean isManual;
         } else if (newSpeed > 0 && newSpeed<=50) {
             changeGear(1);
         }
-        else if (newSpeed > 51 && newSpeed<=100) {
+        else if (newSpeed >= 51 && newSpeed<=100) {
             changeGear(2);
         }
         else if (newSpeed >= 101 && newSpeed<=150) {
