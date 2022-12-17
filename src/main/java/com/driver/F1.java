@@ -41,7 +41,7 @@ boolean isManual;
         }
         else if((newSpeed>250)){
             changeGear(6);
-        }
+        }xx
 
 //git add
         //for all other cases, change the gear accordingly

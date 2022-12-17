@@ -9,7 +9,7 @@ this.capacity=capacity;
     }
     @Override
     public String getVehicleName() {
-        return "Name is "+name;
+        return name;
     }
 
     @Override
