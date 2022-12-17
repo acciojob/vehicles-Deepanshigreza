@@ -10,6 +10,10 @@ public class Vehicle {
         return currentSpeed=90;
     }
 
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
     public Vehicle(String name) {
         this.name=name;
         currentSpeed=0;
