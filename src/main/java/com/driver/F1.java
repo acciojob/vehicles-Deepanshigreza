@@ -24,7 +24,7 @@ boolean isManual;
             //Stop the car, set gear as 1
 
             changeGear(1);
-        } else if (newSpeed > 0 && newSpeed<=50) {
+        } else if (newSpeed >= 1 && newSpeed<=50) {
             changeGear(1);
         }
         else if (newSpeed >= 51 && newSpeed<=100) {
